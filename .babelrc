@@ -1,0 +1,19 @@
+{
+    "presets": [
+      "react",
+      ["env", {
+        "modules": false,
+        "targets": {
+          "browsers": "> 10%" 
+        }}
+      ]
+    ],
+    "env": {
+      "development": {
+        "plugins": ["react-hot-loader/babel"]
+      },
+      "production": {
+        "presets": ["react-optimize"]
+      }
+    }
+  }

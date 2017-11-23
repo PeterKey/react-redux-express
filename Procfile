@@ -1,0 +1,1 @@
+web: node server/server.js --env.production --env.release
